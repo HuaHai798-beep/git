@@ -1,0 +1,75 @@
+# ============================================================
+#  .gitignore
+#  作用：告诉 Git「这些文件不要纳入版本管理」
+#  规则：一行一条，# 开头是注释，末尾的 / 表示只忽略目录
+#  改完保存即可，不需要重启任何东西
+# ============================================================
+
+# ---------- C / C++ 编译产物（数据结构、算法实验最常见） ----------
+*.exe
+*.o
+*.obj
+*.out
+*.gch
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.exp
+a.out
+Debug/
+Release/
+x64/
+x86/
+build/
+cmake-build-*/
+
+# ---------- Windows 系统自动生成的文件 ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---------- Visual Studio / VS Code ----------
+.vs/
+.vscode/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+.history/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+
+# ---------- Java ----------
+*.class
+target/
+.gradle/
+out/
+
+# ---------- JetBrains（IDEA / CLion / PyCharm） ----------
+.idea/
+*.iml
+
+# ---------- Node.js（暂时用不到也可以留着，不影响） ----------
+node_modules/
+npm-debug.log*
+
+# ---------- 日志、临时文件、压缩包 ----------
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.zip
+*.rar
+*.7z
